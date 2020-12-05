@@ -1,1 +1,1 @@
-# php-ajax-jquery
+# AJAX example using JQuery , PHP and Mysql
