@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #eee;
+}
+
+p{
+    margin: 0;
+}
+
+.container{
+    max-width: 1070px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section h1{
+    text-align: center;
+}
+
+
+section input{
+    border: 0;
+    padding: 7px;
+    border-radius: 14px;
+    background-color: #fdfdfd;
+}
+
+section button{
+    border-radius: 14px;
+    padding: 7px 22px;
+    background-color: transparent;
+    border: 2px solid #b9b9b9;
+}
+
+section input:focus{
+    outline: none;
+    border: 1px solid #b9b9b9;
+}
+
+section .felter-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+section .small-input{
+    width: 75px;
+}
+
+section .search-input{
+    width: 250px;
+}
+
+.grid-book{
+    margin: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grid-book .book{
+    width: 23%;
+    background-color: #fff;
+    margin-bottom:20px;
+}
+
+.grid-book .book .image{
+    height: 200px;
+    background-size: cover;
+    margin: 7px 25px;
+    background-position: center;
+}
+
+.grid-book .book .desc {
+    text-align: center;
+    padding: 10px 10px 25px;
+    line-height: 1;
+    color: #3b3b3b;
+    background-color: #dedede;
+}
+.grid-book .book .desc h2 {
+    margin-bottom: 10px;
+}
